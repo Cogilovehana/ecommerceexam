@@ -1,0 +1,135 @@
+body {
+    margin: 10px;
+
+}
+
+/* PHẦN TOP NAVIGATION BAR */
+div.topnav {
+    color: black;
+   padding: 30px 30px;
+
+    }
+li {
+    display: inline-block;
+    float:left;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 3px 3px;
+    text-decoration: none;
+  }
+  
+/* CSS thẻ link cho  TOPNAV */
+
+a.topnav:link {
+    color:black;
+    text-decoration: none;
+}
+a.topnav:visited {
+    color: black;
+    text-decoration: none;
+}
+a.topnav:hover {
+    color: rgba(169, 240, 224, 0.637);
+    text-decoration: none;
+}
+a.topnav:active {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+  /* TABLE - CONTACT*/
+  table.contact {
+    border-collapse: collapse;
+    width: 100%;
+    text-align:left;
+    font-size: 12px;
+    padding: 200px;
+
+  }
+  a.contact {
+      text-decoration: none;
+      color:black;
+  }
+  th.contact, td.contact {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    text-align: left;
+    text-size-adjust:initial;
+    font-size: 12px;
+    
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #acacac;
+    color: black;
+    border-radius: 20px;
+ 
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+/* FOOTERRRRRR - CHƯA CHỈNH ĐƯỢC CHO NÓ XUỐNG CUỐI PAGE  */
+div.footer {
+
+  position: fixed;
+  background-color:#F2F2F2;;
+  background-position: center bottom;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-bottom: 20px;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 0;
+
+} 
+/* TABLE -IN - FOOTER */
+table.login {
+  border-collapse: collapse;
+  width: 100%;
+  text-align:left;
+  font-size: 12px;
+  font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+}
+  a.login {
+      text-decoration: none;
+      color:black;
+  }
+  th.login, td.login {
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    text-align: left;
+    text-size-adjust:initial;
+    font-size: 12px;
+    
+  }

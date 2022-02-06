@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+</head>
+<style>
+    .container {
+        position: relative;
+    }
+
+    .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+    }
+
+    .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+       
+    }
+
+    .bottomright {
+position: absolute;
+width: 75px;
+height: 30px;
+left: 1256px;
+top: 717px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+text-align: right;
+color: #000000;
+    }
+
+    .center {
+position: absolute;
+width: 320px;
+height: 67px;
+left: 1003px;
+top: 355px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 67px;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+color: #000000;
+display: inline-block;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+    .home1 {
+    position: absolute;
+width: 550px;
+height: 280px;
+left: 220px;
+top: 900px;
+
+background: url(img/findyournewlook.jpg)
+}
+.home2 {
+position: absolute;
+width: 390px;
+height: 70px;
+left: 820px;
+top: 1005px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 111.5%;
+color: #000000;
+}
+.home3 {
+position: absolute;
+width: 380px;
+height: 144px;
+left: 220px;
+top: 1328px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 190%;
+color: #000000;
+}
+.home4 {
+position: absolute;
+width: 550px;
+height: 280px;
+left: 670px;
+top: 1260px;
+background: url(img/amazing.jpg)
+}
+.home5 {
+position: absolute;
+width: 633px;
+height: 50px;
+left: 403px;
+top: 1652px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+text-align: center;
+color: #000000;
+}
+.home6 {
+position: absolute;
+width: 305px;
+height: 30px;
+left: 568px;
+top: 1711px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+text-align: center;
+color: #000000;
+}
+.home7a {
+position: absolute;
+width: 510px;
+height: 250px;
+left: 220px;
+top: 1780px;
+background: url(img/mystery.jpg)
+}
+.home7b {
+position: absolute;
+width: 180px;
+height: 250px;
+left: 750px;
+top: 1780px;
+background: url(img/darling.jpg)   
+}
+.home7c {
+position: absolute;
+width: 270px;
+height: 250px;
+left: 950px;
+top: 1780px;
+background: url(img/beyong.jpg)   
+}
+.home7d {
+position: absolute;
+width: 180px;
+height: 250px;
+left: 220px;
+top: 2050px;
+background: url(img/reven.jpg)
+}
+.home7e {
+position: absolute;
+width: 270px;
+height: 250px;
+left: 420px;
+top: 2050px;
+background: url(img/leminin.jpg)
+}
+.home7f {
+position: absolute;
+width: 510px;
+height: 250px;
+left: 710px;
+top: 2050px;
+
+background: url(img/naturalism.jpg)
+}
+
+.home8 {
+position: absolute;
+width: 291px;
+height: 19px;
+left: 220px;
+top: 2356px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 19px;
+color: #000000;
+}
+.home9 {
+position: absolute;
+width: 450px;
+height: 124px;
+left: 220px;
+top: 2391px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+color: #000000;
+}
+.home10 {
+position: absolute;
+width: 448px;
+height: 19px;
+left: 710px;
+top: 2356px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 19px;
+color: #000000;
+}
+.home11 {
+position: absolute;
+width: 510px;
+height: 149px;
+left: 710px;
+top: 2391px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+color: #000000;    
+}
+.home12a {
+position: absolute;
+width: 1440px;
+height: 610px;
+left: 0px;
+top: 2650px;
+background: #F2F2F2;
+}
+.home12b {
+position: absolute;
+width: 335.15px;
+height: 500px;
+left: 180px;
+top: 2707px;
+background: url(img/newcustomer.png)
+}
+.home12c {
+position: absolute;
+width: 720px;
+height: 610px;
+left: 720px;
+top: 2650px;
+
+background: url(img/newcustomer2.png)
+}
+.home12d {
+position: absolute;
+width: 800px;
+height: 450px;
+left: 320px;
+top: 2730px;
+background: #FFFFFF;
+opacity: 0.8;
+}
+.home12e {
+position: absolute;
+width: 343px;
+height: 50px;
+left: 544px;
+top: 2782px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+text-align: center;
+color: #000000;     
+}
+.home12f {
+position: absolute;
+width: 262px;
+height: 30px;
+left: 584px;
+top: 2861px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 190%;
+text-align: center;
+color: #000000;
+}
+.home12g {
+position: absolute;
+width: 324px;
+height: 30px;
+left: 553px;
+top: 2951px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 190%;
+text-align: center;
+color: #000000;   
+}
+.home12h {
+position: absolute;
+width: 103px;
+left: 0px;
+top: -16.67%;
+bottom: 16.67%;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+color: #BDBDBD;
+}
+input[type=text] {
+position: absolute;
+width: 103px;
+left: 0px;
+top: -16.67%;
+bottom: 16.67%;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+color: #BDBDBD;   
+}
+button {
+position: absolute;
+left: 30.62%;
+right: 31.25%;
+top: 20%;
+bottom: 20%;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 190%;
+text-align: center;
+color: #FFFFFF;
+background: #000000;
+border-radius: 30px;
+}
+
+.home13 {
+position: absolute;
+width: 510px;
+height: 50px;
+left: 465px;
+top: 3362px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 50px;
+text-align: center;
+color: #000000;
+}
+.home14 {
+position: absolute;
+width: 102px;
+height: 17px;
+left: 669px;
+top: 3427px;
+font-family: SVN-Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 17px;
+text-align: center;
+text-decoration-line: underline;
+color: #9B51E0;
+}
+.home15a {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 220px;
+top: 3490px;
+
+background: url(img/instagram1.jpg)
+}
+.home15b {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 420px;
+top: 3490px;
+background: url(img/instagram2\ \(1\).jpg)
+}
+.home15c {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 620px;
+top: 3490px;
+
+background: url(img/instagram3.jpg)
+}
+.home15d {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 820px;
+top: 3490px;
+
+background: url(img/instagram4.jpg)
+}
+.home15e {
+position: absolute;
+width: 200px;
+height: 200px;
+left: 1020px;
+top: 3490px;
+
+background: url(img/instagram5.jpg)
+}
+</style>
+
+<body>
+
+    <!-- Phần NAVIGATION -->
+
+    <div class="container">
+        <img src="img/biareven.jpg">
+        <div class="center">
+            <p>REVEN</p>
+        </div>
+
+        <!-- phần navigation của page login -->
+        <div class="topnav">
+            <ul>
+                <div class="topleft">
+                    <li>
+                        <a href="about.html">
+                            <b>NODIC CODER</b>
+                        </a>
+                    </li>
+                </div>
+                <div class="topright">
+                    <li style="float:right">
+                        <a href="home.html">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                    <li style="float:right; ">
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </li>
+                    <li style="float:right">
+                        <a href="home.html">
+                            Sale
+                        </a>
+                    </li>
+                    <li style="float:right; ">
+                        <a href="home.html">
+                            Shop
+                        </a>
+                    </li>
+                    <li style="float:right;">
+                        <a href="listing.html">
+                            New
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bottomleft">
+    <p> <b>&#x2B05; &#x27A1;</b></p>  
+    </div>
+    <div class="bottomright">
+    Shop Now <!-- Thiếu phần LINK --> <img style="width:20px;"src="img/Group 1404.svg"> 
+    </div>
+    </div>
+<div class="home1"> </div>
+<div class="home2"> Find your new look with the fresh fall fashion ideas. </div>
+<div class="home3">Amazing designs & collaborations, and as always <br>
+    100% Organic & Fairtrade certified cotton. Inspired <br>
+    by the georgious Brasilian bucket, a wonderful <br>
+    serenity has taken possession of my entire soul, like <br>
+    these sweet mornings of spring which.</div>
+<div class="home4"></div>
+<div class="home5">Shop these outfit collections</div>
+<div class="home6">100% Organic & Fairtrade certified cotton</div>
+<div class="home7a"> </div>
+<div class="home7b"></div>
+<div class="home7c"></div>
+<div class="home7d"></div>
+<div class="home7e"></div>
+<div class="home7f"></div>
+<div class="home8"> Women’s Clothing and Accessories</div>
+<div class="home9">Searching for cute clothes? Shop Nordic Coder women’s <br>
+    clothes, accessories and women’s shoes right here. Updated <br>
+    daily with new arrivals of exclusive styles, favorite brands <br>
+    and trends.</div>
+<div class="home10">Shop For The Latest Clothes Online And Shoes Online.</div>
+<div class="home11">Nordic Coder delivers a stylish and current collection womens<br>
+     apparel, sourced from the most coveted Australian and international <br>
+     brands. With everything from dresses to jeans, ankle boots to <br>
+     sneakers, watches to wallets, our selection of over 20,000 products <br>
+     has something for every style.</div>
+<div class="home12a"></div>
+<div class="home12b"></div>
+<div class="home12c"></div>
+<div class="home12d">
+</div>
+<div class="home12e">New customer?</div>
+<div class="home12f">Receive instantly voucher valued at</div>
+<div class="home12g">and other attractive deals and latest trends</div>
+
+<div class="home12h"></div>
+<div class="home12j"></div>
+<div class="home13">Follow us on instagram</div>
+<div class="home14">@nordiccoder</div>
+<div class="home15a"></div>
+<div class="home15b"></div>
+<div class="home15c"></div>
+<div class="home15d"></div>
+<div class="home15e"></div>
+<div class="hoem15f"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- FOOTER  - CHƯA CHỈNH ĐƯỢC PHẦN CUỐI PAGE-->
+<div class="footer">
+    <table class="login">
+        <tr>
+            <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html> About us </a></th>
+            <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=listing.html>How can we help</a></th>
+            <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html>Shop</a></th>
+            <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html>Security system</a></th>
+            </tr>
+            <tr>
+            <td>Our company </td>
+            <td>FAQs</td>
+            <td>Tops</td>
+            <td><i style="color:green;" class="fas fa-check-circle"></i>PCI security standards</td>
+        </tr>
+        <tr>
+            <td> Our history</td>
+            <td> Order tracking </td>
+            <td> Accessories </td>
+            <td><i style="color:green;" class="fas fa-check-circle"></i>Protect card owner</td>
+        </tr>
+            <tr>
+            <td> Contact</td>
+            <td> Terms & Conditions </td>
+            <td> Jeans </td>
+            <td><i style="color:green;" class="fas fa-check-circle"></i>Encrypted network</td>
+        </tr>
+        <tr>
+            <td>Jobs</td>
+            <td> Privacy Policy</td>
+            <td> Jackets </td>
+        </tr>
+            <tr>
+            <td> Journal </td>
+            <td> Returns & Refunds</td>
+            <td> Shoes </td>
+        </tr>
+        <tr>
+        <td> Store Locations </td>
+         <td> Support </td>
+        </tr>
+    </table>
+        <p style="color:rgb(162, 163, 162)">Copyright © 2020 Your Name. All rights reserved.</p>
+    </div>
+    </div>
+
+    <!-- END FOOTER-->
+
+</body>
+
+</html>

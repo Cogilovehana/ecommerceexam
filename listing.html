@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+</head>
+<style>
+/* TẠO 02 COLUNM CHO PHẦN MAIN */
+/* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    
+}
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+
+.row,
+        {
+        flex-direction: column;
+    }
+}
+p.listing-sort-border {
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+border-radius: 30px;
+width: 10%;
+background-image: url(img/muitenxuong.svg);
+background-repeat:no-repeat;
+background-position-x: right;
+background-position: right;
+padding: 5px;
+}
+/*PROJECT IMAGE */
+div.flexwrapimage {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+  
+  div.flexwrapimage:hover {
+    border: 1px solid #777;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+  
+  div.flexwrapimage img {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    overflow: auto;
+    flex-wrap: wrap;
+  }
+</style>
+<body>
+    <h1 style="color:red;">NOT DONE</h1>
+    <h1 style="color:red;"> CHƯA CSS PAGE NÀY </h1>
+<!-- phần navigation của page login -->
+        <div class="topnav">
+            <ul>
+                
+                <li>
+                    <a href="about.html">
+                        <b>NODIC CODER</b>
+                    </a>
+                </li>
+                <li style="float:right">
+                    <a href="home.html">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li style="float:right; ">
+                    <a href="home.html">
+                        Login
+                    </a>
+                </li>
+                <li style="float:right">
+                    <a href="home.html">
+                        Sale
+                    </a>
+                </li>
+                <li style="float:right;text-decoration:underline; ">
+                    <a href="home.html">
+                        Shop
+                    </a>
+                </li>
+               <li style="float:right;">
+                    <a href="listing.html">
+                        New
+                    </a></li>
+            </ul>
+        </div>
+
+<!-- PHẦN MAIN - FORM LOGIN-->
+<!-- Chia làm 02 cột -->
+<div class="row">
+<!-- Column LEFT-->
+    <div class="slide">
+<ul>
+    <li>
+        Filter by category
+    </li>
+    <li>
+        Tops
+    </li>
+    <li>
+        Accessories
+    </li>
+    <li>
+        Jeans
+    </li>
+    <li>
+        Jackets
+    </li>
+    <li>
+        Shoes
+    </li>
+    <li>
+        Filter by color
+    </li>
+
+</ul>
+<button></button>
+<p>Filter by size</p>
+   <table>
+       <td>
+           <tr>XS</tr>
+           <tr>s</tr>
+           <tr>M</tr>
+           <tr>L</tr>
+       </td>
+   </table>
+
+    </div>
+<!-- Column RIGHT -->
+
+<div class="main">
+    <h1>SHOP</h1>
+    <p>Showing 1–12 of 24 results</p>
+    <p class="listing-sort-border">Sort by latest</p> 
+    
+    <div class="flexwrapimage">
+    <a target="_blank" href="img/julia1.jpg">
+        <img src="img/julia1.jpg">
+    </a>
+    <div class="desc"> <b>Julia</b> <br> €99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia2.jpg">
+            <img src="img/julia2.jpg">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia3.jpg">
+            <img src="img/julia3.jpg">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia4.png">
+            <img src="img/julia4.png">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia5.jpg">
+            <img src="img/julia5.jpg">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia6.jpg">
+            <img src="img/julia6.jpg">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia7.png">
+            <img src="img/julia7.png">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia8.png">
+            <img src="img/julia8.png">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>
+    <div class="flexwrapimage">
+        <a target="_blank" href="img/julia9.png">
+            <img src="img/julia9.png">
+        </a>
+        <div class="desc"> <b>Julia</b> <br>€99.00 €119.00</div>
+    </div>        
+</div>
+</div>
+<!-- end phần main-->
+
+
+<!-- Phần PAGINATION -->
+<div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#" class="active" >1</a>
+    <a href="#" >2</a>
+    <a href="#">&raquo;</a>
+  </div>
+<!--End phần pagination-->
+
+<!-- FOOTER -->
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="footer">
+    <table class="login">
+        <tr>
+        <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html> About us </a></th>
+        <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=listing.html>How can we help</a></th>
+        <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html>Shop</a></th>
+        <th><a style="text-decoration:none;color:rgb(134, 134, 134)" href=about.html>Security system</a></th>
+        </tr>
+        <tr>
+        <td> Our company </td>
+        <td>FAQs</td>
+        <td>Tops</td>
+        <td><i style="color:green;" class="fas fa-check-circle"></i>PCI security standards</td>
+        </tr>
+        <tr>
+            <td> Our history</td>
+            <td> Order tracking </td>
+            <td> Accessories </td>
+            <td><i style="color:green;" class="fas fa-check-circle"></i>Protect card owner</td>
+        </tr>
+        <tr>
+            <td> Contact</td>
+            <td> Terms & Conditions </td>
+            <td> Jeans </td>
+            <td><i style="color:green;" class="fas fa-check-circle"></i>Encrypted network</td>
+        </tr>
+        <tr>
+            <td>Jobs</td>
+            <td> Privacy Policy</td>
+            <td> Jackets </td>
+        </tr>
+        <tr>
+            <td> Journal  </td>
+            <td> Returns & Refunds</td>
+            <td> Shoes </td>
+        </tr>
+        <tr>
+            <td> Store Locations  </td>
+            <td> Support </td>
+        </tr>
+    </table>
+
+    <p style="color:rgb(162, 163, 162)">Copyright © 2020 Your Name. All rights reserved.</p>
+  </div>
+<!-- END FOOTER-->
+</body>
+</html>
